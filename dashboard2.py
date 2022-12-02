@@ -6,7 +6,7 @@ import time # to simulate a real time data, time loop
 
 
 # read csv from a github repo
-df = pd.read_csv("https://raw.githubusercontent.com/SierraEcoXray/dashboard/main/xbeetest_20220616161341(dust).csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analysis/master/bank.csv")
 
 
 st.set_page_config(
