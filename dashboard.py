@@ -97,7 +97,7 @@ with fig_col2:
     st.dataframe(df)
     time.sleep(1)
 
-In[ ]:
+# In[ ]:
 
 
 
