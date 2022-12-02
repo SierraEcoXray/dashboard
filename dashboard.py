@@ -81,7 +81,7 @@ df = df[df["module"] == module_filter]
 #         )
 
         # create two columns for charts
-    fig_col1, fig_col2 = st.columns(2)
+fig_col1, fig_col2 = st.columns(2)
         with fig_col1:
             st.markdown("### First Chart")
             fig = px.density_heatmap(
