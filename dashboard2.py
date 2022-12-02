@@ -68,6 +68,6 @@ for seconds in range(200):
             st.write(fig2)
         st.markdown("### Detailed Data View")
         st.dataframe(df)
-        time.sleep(1)
+        time.sleep(0.5)
     #placeholder.empty()
 
